@@ -15,7 +15,8 @@ main{
 }
 .clickball,
 .steps,
-.we-offer{
+.we-offer,
+.registration{
   
     min-width: 320px;
     max-width: 1000px;
@@ -447,6 +448,58 @@ margin-top: 10px;
 }
 .we-offer__advantages .advantages-item:nth-child(4) p{
     width: 180px;
+}
+.registration{
+    margin-top: 25px;
+    
+}
+.registration form{
+    position: relative;
+    top: -5px;
+    margin-left: 35px;
+}
+.registration input{
+    height: 55px;
+    transform: skew(-7deg);
+    width: 328px;
+    margin-left: 10px;
+    padding-left: 25px;
+    border: none;
+}
+.registration input::placeholder{
+    font-family: "Montserrat-Italic", sans-serif;
+    font-size: 18px;
+}
+.registration input[value]{
+    color: #ffffff;
+    font-family: "Montserrat-BlackItalic", sans-serif;
+    font-size: 24px;
+    background-image: url(../images/go.png);
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    transform: skew(-7deg);
+}
+.registration input:first-child{
+    margin-left: 10px;
+}
+.registration input:last-child{
+    width: 220px;
+    
+}
+.registration-title{
+    width: 239px;
+    height: 49px;
+    background-image: url(../images/background-border3.png);
+    background-repeat: no-repeat;
+    margin-left: 47px;
+}
+.registration-title p{
+    color: #ffffff;
+    font-size: 24px;
+    font-family: "Montserrat-SemiBoldItalic", sans-serif;
+    padding-top: 10px;
+    margin-left: 25px;
+    letter-spacing: .7px;
 }
 //-----------------------------------------------------------------------------------------------------------
 //
