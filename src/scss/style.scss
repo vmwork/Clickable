@@ -14,7 +14,8 @@ main{
    
 }
 .clickball,
-.steps{
+.steps,
+.we-offer{
   
     min-width: 320px;
     max-width: 1000px;
@@ -232,8 +233,7 @@ margin-top: 10px;
       position: relative;
       display: flex;
       margin-top: 43px;
-    //   left: -350px;
-    animation: 1.7s linear 0s normal none running step1;
+      animation: 1.7s linear 0s normal none running step1;
     animation-iteration-count: 1;
     }
     
@@ -360,6 +360,93 @@ margin-top: 10px;
 .steps-offer img{
     margin-top: 10px;
     margin-left: 130px;
+}
+.we-offer__button{
+    width: 310px;
+    height: 77px;
+    margin-top: 55px;
+    margin-left: 345px;
+    transform: skew(-7deg, 0);
+}
+.we-offer__button span{
+    padding-top: 20px;
+}
+.we-offer__advantages{
+    display: flex;
+    color: #fff;
+}
+.item-container{
+    border: 3px solid #483646;
+    width: 100px;
+    height: 83px;
+    transform: skew(-7deg, 0);
+    margin-top: 55px;
+}
+  
+.item-content{
+    background: linear-gradient(45deg, #ff8900, #fffa62);
+    box-shadow: -10px -10px 30px #583212,
+                10px 10px 30px #583212;
+    width: 70px;
+    height: 58px;
+    margin-top: 10px;
+    margin-left: 12px;
+
+}
+.we-offer__advantages .advantages-item:first-child{
+    margin-left: 60px;
+}
+.we-offer__advantages .advantages-item:nth-child(2){
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.we-offer__advantages .advantages-item:nth-child(3){
+    margin-left: 22px;
+
+}
+.we-offer__advantages .advantages-item:nth-child(4){
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.we-offer__advantages .advantages-item:nth-child(5){
+    margin-left: 12px;
+
+}
+.we-offer__advantages .advantages-item:first-child img{
+    margin-left: 15px;
+    margin-top: 12px;
+}
+
+.we-offer__advantages .advantages-item:nth-child(2) img{
+    margin-left: 15px;
+    margin-top: 8px;
+}
+.we-offer__advantages .advantages-item:nth-child(3) img{
+    margin-left: 20px;
+    margin-top: 8px;
+    transform: rotate(-25deg);
+}
+.we-offer__advantages .advantages-item:nth-child(4) img{
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.we-offer__advantages .advantages-item:nth-child(5) img{
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.we-offer__advantages .advantages-item p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    width: 170px;
+    text-align: center;  
+    position: relative;
+    left: -40px;
+    letter-spacing: 0.99px;
+}
+.we-offer__advantages .advantages-item:nth-child(4) p{
+    width: 180px;
 }
 //-----------------------------------------------------------------------------------------------------------
 //
