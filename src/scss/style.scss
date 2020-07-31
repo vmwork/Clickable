@@ -16,7 +16,8 @@ main{
 .clickball,
 .steps,
 .we-offer,
-.registration{
+.registration,
+.logos{
   
     min-width: 320px;
     max-width: 1000px;
@@ -24,9 +25,12 @@ main{
 text-transform: uppercase;
 padding-top: 25px;
 
-
-
 }
+.logos, .registration{
+    position: relative;
+    z-index: 4;
+}
+
 .clickball-header{
     position: relative;
     display: flex;
@@ -75,6 +79,7 @@ padding-top: 25px;
     margin-top: 5px;
     margin-left: 10px;
 }
+
 .deposit-bonus h2{
     color: #ffffff;
     font-family: 'Montserrat-Black', sans-serif;
@@ -90,6 +95,11 @@ padding-top: 25px;
     margin-left: 62px;
     top: -20px;
     letter-spacing: 0.7px;  
+    z-index: 4;
+}
+.deposit-bonus__up-to, .register, .steps, .up-to__awaits-for-you{
+    position: relative;
+    z-index: 4;
 }
 .up-to,
 .up-to__awaits-for-you{
@@ -167,6 +177,7 @@ margin-top: 10px;
 .sign-up{
     display: block;
     position: relative;
+    z-index: 4;
     width: 382px;
     height: 90px;
     background: linear-gradient(45deg, #ff8900, #fffa62);
@@ -202,8 +213,69 @@ margin-top: 10px;
     left: 50.5%;
     background-image: url(../images/player.png);
     background-repeat: no-repeat;
-    width: 530px;
-    height: 100%;  
+    width: 480px;
+    height: 1422px;  
+    z-index: 10;
+}
+.clickball__line{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../images/line.png);
+    background-repeat: no-repeat;
+    width: 476px;
+    height: 100%;
+}
+// .clickball__line2{
+//     position: absolute;
+//     top: 1588px;
+//     left: 30%;
+//     background-image: url(../images/line3.png);
+//     background-repeat: no-repeat;
+//     width: 40px;
+//     height: 158px; 
+// }
+.clickball__palm{
+    position: absolute;
+    top: 220px;
+    left: 0;
+    background-image: url(../images/palm.png);
+    background-repeat: no-repeat;
+    width: 415px;
+    height: 100%; 
+    z-index: 1;
+}
+.clickball__palm2{
+    position: absolute;
+    top: 700px;
+    right: 0;
+    background-image: url(../images/palm2.png);
+    background-repeat: no-repeat;
+    width: 474px;
+    height: 100%; 
+    z-index: 1;
+}
+.big-line{
+    position: absolute;
+    top: 899px;
+    right: 0;
+    background-image: url(../images/big-line.png);
+    background-repeat: no-repeat;
+   
+    width: 100%;
+    height: 100%; 
+    z-index: 1;
+}
+.clickball__palm3{
+    position: absolute;
+  top: 1418px;
+  left: 0;
+   
+    background-image: url(../images/palm3.png);
+    background-repeat: no-repeat;
+    width: 471px;
+    height: 342px; 
+    z-index: 1;
 }
 .player-ball{
     position: absolute;
@@ -214,8 +286,6 @@ margin-top: 10px;
     width: 224px;
     height: 210px;
     animation: 2.7s linear 0s normal none infinite running rot;
-    
-
     }
 @keyframes rot {
     0% {
@@ -500,6 +570,21 @@ margin-top: 10px;
     padding-top: 10px;
     margin-left: 25px;
     letter-spacing: .7px;
+}
+.logo-list{
+    display: flex;
+    margin-left: 45px;
+    margin-top: 45px;
+    justify-content: space-between;
+}
+.copyrigth p{
+    color: #6e6c6e;
+    font-family: "Montserrat-SemiBold", sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5px;
+    padding-bottom: 30px;
+    text-transform: none;
 }
 //-----------------------------------------------------------------------------------------------------------
 //
