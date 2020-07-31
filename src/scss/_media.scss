@@ -1,0 +1,139 @@
+@media (max-width: 990px) {
+    .clickball__player {
+        position: absolute;
+        top: 100px;
+        left: 60.5%;
+         width: 35%;
+        height: 100%;
+        background-size: 100%;
+        
+    }
+    .we-offer__button{
+        margin: 0 auto;
+        margin-top: 55px;
+    }
+    .player-ball{
+        width: 112px;
+        height: 105px;
+        background-size: 100% 100%;
+        top: 250px;
+        }
+        .we-offer__advantages{
+         flex-wrap: wrap;
+         position: relative;
+         z-index: 4;
+         margin-left: 10%;
+        }
+        .logo-list{
+            flex-wrap: wrap;  
+        }
+        .clickball__palm2{
+            display: none;
+        }
+        .registration{
+            width: 320px;
+            margin: 0 auto;
+        }
+        .registration form{
+            display: flex;
+            flex-direction: column;
+            
+           
+        }
+        .registration input{
+            margin-top: 20px;
+        }
+        .clickball__palm3{
+            display:none;
+        }
+}
+@media (max-width: 767px){
+    .clickball__player, .clickball-header_costumer {
+        display: none
+        
+    }
+    .steps-deposit img{
+        margin-top: 53px;
+        margin-left: 10px;
+    }
+    .steps-deposit{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .clickball__tree,
+     .clickball__line,
+      .clickball__palm, 
+      .steps-deposit img,
+      .steps-register img,
+      .steps-offer img{
+        display: none;
+       }
+       .clickball-header h2{
+           font-size: 40px;
+       }
+       .deposit-bonus h2{
+        font-size: 80px;
+       }
+       .deposit-bonus p{
+           margin-top: 50px;
+       }
+       .up-to__money{
+           max-width: 290px;
+           margin: 0 auto;
+           margin-top: 50px;
+           margin-bottom: 50px;
+       }
+       .up-to__money span{
+           padding-top: 15px;
+           font-size: 34px;
+       }
+       .registration input{
+       width: 226px
+    }
+    .sign-up{
+        width:  260px;
+        margin: 0 auto;
+    }
+    .sign-up span{
+        font-size: 29px;
+        margin-top: 50px;
+        margin-left: 10px;
+        
+    }
+    .up-to{
+        flex-wrap: wrap;
+    }
+    .up-to__awaits-for-you span{
+        font-size: 16px;
+    }
+    .deposit{
+        margin-left: 0;
+        width: 90%;
+        // background-size: 90%;
+        background-repeat: no-repeat;
+    }
+    .deposit span{
+        font-size: 28px;
+        line-height: 84px;
+    }
+    .offer{
+        margin-left: 10px;
+    }
+    .we-offer__button span{
+        padding-left: 30px;
+    }
+}
+@media (max-width: 374px){
+    .advantages-item{
+        margin: 0!important;
+        margin-left: 80px!important;
+    }
+   
+}
+@media (max-width: 426px){
+    .advantages-item{
+        margin: 0!important;
+        margin-left: 100px!important;
+    }
+   
+}

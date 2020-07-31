@@ -134,7 +134,7 @@ margin-top: 10px;
     height: 73px;
     margin-left: 60px;
     transform: skew(-8deg, 0);
-    z-index: 5;
+    z-index: 15;
 }
 .up-to__money span{
     color: #000000;
@@ -157,6 +157,7 @@ margin-top: 10px;
 .up-to__awaits-for-you img{
     position: relative;
     top: -4px;
+    
 }
 .up-to__awaits-for-you div{
     position: relative;
@@ -226,15 +227,7 @@ margin-top: 10px;
     width: 476px;
     height: 100%;
 }
-// .clickball__line2{
-//     position: absolute;
-//     top: 1588px;
-//     left: 30%;
-//     background-image: url(../images/line3.png);
-//     background-repeat: no-repeat;
-//     width: 40px;
-//     height: 158px; 
-// }
+
 .clickball__palm{
     position: absolute;
     top: 220px;
@@ -263,7 +256,7 @@ margin-top: 10px;
     background-repeat: no-repeat;
    
     width: 100%;
-    height: 100%; 
+    height: 285px; 
     z-index: 1;
 }
 .clickball__palm3{
@@ -445,6 +438,7 @@ margin-top: 10px;
 .we-offer__advantages{
     display: flex;
     color: #fff;
+    
 }
 .item-container{
     border: 3px solid #483646;
