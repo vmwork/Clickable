@@ -7,13 +7,359 @@
 //                                                    START CODE
 //
 //-----------------------------------------------------------------------------------------------------------
+main{
+    width: 100%;
+    min-height: 100%;
+    background-color: #190219;
+   
+}
+.clickball,
+.steps{
+  
+    min-width: 320px;
+    max-width: 1000px;
+    margin: 0 auto;
+text-transform: uppercase;
+padding-top: 25px;
 
 
-h1 {
-    color: green;
+
+}
+.clickball-header{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-left: 45px;
+    z-index: 4;
+}
+.clickball-header h2{
+    color: #ffffff;
+    font-size: 66px;
+    line-height: 1.5;
+    font-style: italic;
+    font-weight: 900;
+    font-family: "Montserrat-BlackItalic", sans-serif;
+    letter-spacing: 1.5px;
+}
+.clickball-header span{
+    color: #ffe900;
+}
+.clickball-header_costumer{
+    background-image: url(../images/costumer.png);
+    background-repeat: no-repeat;
+    width: 143px;
+    margin-left: 42px;
+    margin-top: 25px;
+    font-size: 12px;
+    font-style: italic;
+    color: #ffffff;
+    text-transform: uppercase;
+
+}
+.costumer-alert{
+    display: flex;
     
+}
+.clickball-header_costumer p{
+    margin-top: 10px;
+    margin-left: 15px;
+    letter-spacing: 0.5px;
+    font-family: "Montserrat-Italic", sans-serif;
+}
+.costumer-alert p{
+    margin-top: 5px;
+}
+.customer-arrows{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.deposit-bonus h2{
+    color: #ffffff;
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 140px;
+    font-weight: 800;
+    margin-left: 50px;
+}
+.deposit-bonus p{
+    position: relative;
+    color: #ffe400;
+    font-size: 32px;
+    font-family: "Montserrat-Regular", sans-serif;
+    margin-left: 62px;
+    top: -20px;
+    letter-spacing: 0.7px;  
+}
+.up-to,
+.up-to__awaits-for-you{
+    display: flex;
+}
+.up-to div{
+    color: #ffffff;
+    font-family: "Montserrat-SemiBoldItalic", sans-serif;
+    font-size: 24px;
+    background-image: url(../images/background-border.png);
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 50px;
+    margin-top: -2px;
+    margin-left: 65px;
+ 
+}
+.up-to span{
+    display: block;
+margin-left: 18px;
+margin-top: 10px;
+}
+.up-to img{
+    margin-left: 53px;
+    margin-top: 12px;
+}
+.up-to__money{
+    position: relative;
+    top: -3px;
+    background-color: #ffffff;
+    max-width: 378px;
+    height: 73px;
+    margin-left: 60px;
+    transform: skew(-8deg, 0);
+    z-index: 5;
+}
+.up-to__money span{
+    color: #000000;
+    font-family: "Montserrat-ExtraBold", sans-serif;
+    font-size: 46px;
+    display: block;
+    padding-top: 8px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+   
+}
+.up-to__awaits-for-you{
+    margin-left: 85px;
+    margin-top: 10px;
+    color: #ffffff;
+    font-family: "Montserrat-SemiBoldItalic", sans-serif;
+    font-size: 24px;
+  
+}
+.up-to__awaits-for-you img{
+    position: relative;
+    top: -4px;
+}
+.up-to__awaits-for-you div{
+    position: relative;
+  background-image: url(../images/background-border2.png);
+    background-repeat: no-repeat;
+    width: 269px;
+    height: 50px;  
+    margin-left: 25px;
+    top: -15px;
+    z-index: 1;
+}
+.up-to__awaits-for-you span{
+    display: block;
+    margin-left: 20px;
+    padding-top: 10px;
+    letter-spacing: 0.75px;
+}
+.sign-up{
+    display: block;
+    position: relative;
+    width: 382px;
+    height: 90px;
+    background: linear-gradient(45deg, #ff8900, #fffa62);
+    transform: skew(-5deg, 0);
+    margin-left: 50px;
+    margin-top: 25px;
+    box-shadow: -10px -10px 100px #583212,
+                10px 10px 100px #583212;
     
+}
+.sign-up span{
+    font-family: "Montserrat-BlackItalic", sans-serif;
+    font-size: 36px;
+    color: #000000;
+    display: block;
+    padding-top: 25px;
+    margin-left: 50px;
+    letter-spacing: 0.4px;
+}
+.clickball__tree{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url(../images/tree.png);
+    background-repeat: no-repeat;
+    width: 530px;
+    height: 100%;
+   
+}
+.clickball__player{
+    position: absolute;
+    top: 0;
+    left: 50.5%;
+    background-image: url(../images/player.png);
+    background-repeat: no-repeat;
+    width: 530px;
+    height: 100%;  
+}
+.player-ball{
+    position: absolute;
+    top: 250px;
+    left: 0%;
+    background-image: url(../images/ball.png);
+    background-repeat: no-repeat;
+    width: 224px;
+    height: 210px;
+    animation: 2.7s linear 0s normal none infinite running rot;
     
+
+    }
+@keyframes rot {
+    0% {
+      transform: rotate(0deg);
+ 
+    }
+    100% {
+      transform: rotate(360deg);
+     
+    }
+  
+
+  }
+
+  .steps-register{
+      position: relative;
+      display: flex;
+      margin-top: 43px;
+    //   left: -350px;
+    animation: 1.7s linear 0s normal none running step1;
+    animation-iteration-count: 1;
+    }
+    
+    @keyframes  step1{
+        0% {
+          transform: translateX(-350px)
+        }
+        100% {
+          transform: rotate(350px);
+     
+        }
+      }
+  .register{
+      color: #ffffff;
+      background-image: url(../images/step1.png);
+      width: 260px;
+      height: 85px;
+      margin-left: 43px;
+  }
+  .register span{
+      font-family:"Montserrat-SemiBoldItalic", sans-serif;
+      font-size: 32px;
+      line-height:104px;
+      padding-left: 55px;
+      letter-spacing: 0.99px;
+  }
+  .register-container p{
+    color: #a3a3a3;
+    text-align: center;
+    font-family: "Montserrat-Light", sans-serif;
+    font-size: 18px;
+    text-transform: none;
+    margin-left: 55px;
+    margin-top: 17.5px;
+
+ 
+  }
+  .steps-register img{
+      margin-top: 35px;
+      margin-left: 195px;
+  }
+  .steps-deposit{
+    position: relative;
+    display: flex;
+    animation: 1.7s linear 0s normal none running step2;
+    animation-iteration-count: 1;
+  }
+  .deposit{
+      position: relative;
+    color: #ffffff;
+    background-image: url(../images/step2.png);
+    width: 340px;
+    height: 83px;
+    margin-left: 112px;
+    top: -40px;
+  }
+  .deposit span{
+    font-family:"Montserrat-SemiBoldItalic", sans-serif;
+    font-size: 32px;
+    line-height:104px;
+    padding-left: 45px;
+    letter-spacing: 0.99px;
+    
+}
+.steps-deposit img{
+    margin-top: 53px;
+    margin-left: 210px;
+}
+.deposit-container p{
+    color: #a3a3a3;
+    text-align: center;
+    font-family: "Montserrat-Light", sans-serif;
+    font-size: 18px;
+    text-transform: none;
+    margin-left: 125px;
+    line-height: 23px;
+    margin-top: -23px;
+  }
+  @keyframes  step2{
+    0% {
+      transform: translateX(350px)
+    }
+    100% {
+      transform: rotate(-350px);
+ 
+    }
+  }
+  .steps-offer{
+    position: relative;
+    display: flex;
+    margin-top: 43px;
+  //   left: -350px;
+  animation: 1.7s linear 0s normal none running step1;
+  animation-iteration-count: 1;
+  }
+  
+.offer{
+    position: relative;
+    color: #ffffff;
+    background-image: url(../images/step3.png);
+    width: 303px;
+    height: 85px;
+    margin-left: 40px;
+    top: -50px;
+}
+.offer span{
+    font-family:"Montserrat-SemiBoldItalic", sans-serif;
+    font-size: 32px;
+    line-height:104px;
+    padding-left: 45px;
+    letter-spacing: 0.99px;
+}
+.offer-container p{
+  color: #a3a3a3;
+  text-align: center;
+  font-family: "Montserrat-Light", sans-serif;
+  font-size: 18px;
+  text-transform: none;
+  margin-left: 50px;
+  margin-top: - 30px;
+
+
+}
+.steps-offer img{
+    margin-top: 10px;
+    margin-left: 130px;
 }
 //-----------------------------------------------------------------------------------------------------------
 //

@@ -1,0 +1,19 @@
+@mixin  font($f-name, $f-style, $f-weight, $f-url){
+	@font-face{
+		font-family: $f-name;
+		font-style: $f-style;
+		font-weight: $f-weight;
+		src: url($f-url) format('woff2');
+	
+	}}
+	
+
+
+@include font('Montserrat-Black', bolder, 900, '../fonts/Montserrat-Black.woff2');
+@include font('Montserrat-BlackItalic', bolder, 900, '../fonts/Montserrat-BlackItalic.woff2');
+@include font('Montserrat-Italic', regular, 400, '../fonts/Montserrat-Italic.woff2');
+@include font('Montserrat-Regular', regular, 400, '../fonts/Montserrat-Regular.woff2');
+@include font('Montserrat-SemiBoldItalic', regular, 700, '../fonts/Montserrat-SemiBoldItalic.woff2');
+@include font('Montserrat-ExtraBold', regular, 800, '../fonts/Montserrat-ExtraBold.woff2');
+@include font('Montserrat-Light', ligth, 100, '../fonts/Montserrat-Light.woff2');
+
